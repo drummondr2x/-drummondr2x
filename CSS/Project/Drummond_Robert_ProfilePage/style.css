@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fullPage {
+    width: 1365px;
+
+}
+
+.main {
+    display: flex
+}
+
+.main-left {
+display:flex;
+}
+
+.main-right {
+display: flex;
+}
+
+/* start profile card section*/
+
+.card {
+    margin: 50px 200px;
+    border: 2px solid lightsteelblue;
+    width: 475px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+#header {
+    vertical-align: top;
+    height: 30%;
+    width:auto;
+    background-color: darkcyan;
+}
+
+.content {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#jane {
+    border: 3px solid lightblue;
+    border-radius: 50%;
+    width: 60px;
+    position: relative;
+    left: 5%;
+    bottom: 10%;
+}
+
+
+.content h2 {
+    margin-top: -20px;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#location {
+    display: flex;
+    display: inline-flex;
+    padding: 10px 0px;  
+}
+
+#location img{
+    width: 10px;
+    height: 15px;
+    padding-right: 10px;
+}
+
+.edit {
+    display: flex;
+    padding: 5px;
+    display: inline-flex;
+}
+
+.edit img {
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+}
+/*end profile card section*/
+
+/*nav bar section*/
+.nav {
+    width: 100%;
+    height: 150px;
+    background-color: black; 
+    border: 1px solid whitesmoke;
+    display: inline-flex;   
+    justify-content: space-evenly;
+    font-family: sans-serif;
+} 
+
+#nav-title {  
+    font: italic sans-serif;
+    color: whitesmoke;
+    margin: 60px 10px;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-links a{
+    font: italic sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.nav li {
+    margin: 70px 10px;
+}
+
+.btn {
+    height: 30px; 
+    width: 70px;
+    margin: 70px 10px;
+    box-shadow: 10px 10px black;
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    font-size:medium;
+
+}
+/*end nav bar section*/
+
+/* education card section*/
+
+.header {
+vertical-align: top;
+height: 20%;
+width:auto;
+background-color: darkslategrey;
+display: flex;
+}
+
+.header h4{
+margin: 10px 20px;
+color: azure;
+}
+
+#dojo {
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+footer {
+    font-weight: lighter;
+    color: lightsteelblue;
+    padding: 0px 20px;
+}
+
+#skills p {
+    padding: 5px 20px;
+}
+
+/* education card end*/
+
+/*connection request section*/
+
+.smallCard {
+    margin-top: 50px;
+    border: 2px solid lightsteelblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.header button{
+    margin: 10px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+#tableContent img {
+    height: 30px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* end of connections request card */
+
+/* current connections section*/
+
+.smallcard2 {
+margin-top: 50px;
+border: 2px solid lightsteelblue;
+}
+
+#but {
+    margin: 10px;
+    width: 45px;
+}
+
+#view {
+    display: flex;
+    border-top: 2px solid lightsteelblue;
+    padding: 5px;
+}
+
+/* end of connections section */

@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 300px;
+    background-color: antiquewhite;
+}
+
+.main {
+    display:flex;   
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+.navbar {
+    height: 50px;
+    background-color: grey;
+    padding: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar input {
+    height: 20px;
+    border: 2px solid;
+    margin: 10px;
+}
+
+.navbar button {
+    width: 50px;
+    box-shadow: 2px 2px black;
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+    height: 30px;
+    margin: 10px;
+}
+
+.defbox {
+    margin: 20px;
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#left *{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+#left button {
+    background-color: yellow;
+}
+
+#right {
+    display: flex;
+    align-items: center;
+}
+
+.defbox2 {
+    margin: 20px;
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.defbox2 button {
+    width: 95%;
+    box-shadow: 5px 5px;
+    background-color: olivedrab;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+

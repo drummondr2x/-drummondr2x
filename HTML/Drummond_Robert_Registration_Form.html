@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New student registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Registration Form</h1>
+        <label>First Name: *</label> <input type="text" name="First Name">
+        <label>Last Name: *</label> <input type="text" name="Last Name">
+        <label>Email Address: *</label> <input type="text" name="Email Address">
+    <div>
+        <label>Phone Number: *</label> <input type="tel" name="Phone Number">
+    </div>
+    <div>
+        <label>Date of Birth:</label> <input type="date" name="dob">   
+    </div>
+    <div>
+        <label>New Password: *</label><input type="password" name="password">
+        <label>Confirm Password: *</label><input type="password" name="password">
+    </div>
+    <div>   
+        <label>Reason for registering:</label>
+        <textarea name"reason" cols="30" rows="10"></textarea>
+    </div>  
+    <p>What is the best time to contact you if necessary?</p>
+        <label for="morning">Morning</label>
+        <input type="radio" name="contact" value="morning" id="morning">
+        <label for="afternoon">Afternoon</label>
+        <input type="radio" name="contact" value="afternoon" id="afternoon">
+        <label for="evening">Evening</label>
+        <input type="radio" name="contact" value="evening" id="evening">
+        <label>Preferred method of contact</label>
+        <select name="preferred">
+            <option>Email</option>
+            <option>Text</option>
+            <option>Phone Call</option>            
+        </select>
+    <div>
+        <label for="accept">I would like occassional email updates</label><input type="checkbox" name="accept" id="accept">
+    </div>
+    <input type="submit" value="Register">
+</body>
+</html>

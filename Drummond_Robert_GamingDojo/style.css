@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+.navBar {
+    display: flex;
+    background-color: black;
+    height: 70px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 5px solid rebeccapurple;
+}
+
+.navBar img {
+    height: 40px;
+    width: 30px;
+}
+
+.list {
+    width: 260px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+#options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#changeAmount {
+    color: white;
+    text-decoration: underline;
+}
+
+h1 {
+    color: white;
+}
+
+#cart {
+    display: inline-flex;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style:normal;
+    margin: 10px;
+    position: relative;
+    left: 200px;
+}
+
+span {
+    color: rebeccapurple;
+}
+
+button {
+    border: transparent;
+}
+
+.mainContainter {
+    display: flex;
+    justify-content: center;
+}
+
+.topSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#swipe {
+    height: 60px;
+    border: transparent;
+    background-color: lightcyan;
+}
+
+.large {
+    width: 600px;
+    margin: 0px 20px;
+}
+
+.small {
+    width: 200px;
+    height: 75px;
+}
+
+.topSection {
+    display: flex;
+    justify-content:center;
+
+}
+
+.midDivider {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    text-align: center; 
+    align-items: center;
+    height: 50px;   
+
+}
+
+h2 {
+    font-size: 150px;
+    margin-bottom: 15px;
+}
+
+.midDivider :nth-child(2){
+    color: rebeccapurple;
+}
+
+.bottomSection {
+    display: flex;
+    margin-top: -10px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.bottomSection ul {
+    margin: 20px;
+}
+
+.smallIcon {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+
+.gameContent {
+    background-color: white;
+    margin: -5px 0px;
+    padding: 5px 5px 
+}
+
+p {
+    font-size: small;
+}
+
+#icons {
+    display: flex;
+    margin: 2px 0px;
+}
+
+#box1 {
+    background-color: rebeccapurple;
+    height: 30px;
+    width:  45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+#box1 p {
+    color: white;
+}
+
+.bottomRow  ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px;
+}
+
+#old {
+    color: grey;
+    text-decoration: line-through;
+}
+
+#current {
+    font-weight: bold;
+}
+
+.buy {
+    color: white;
+    height: 30px;
+    width: 30px;
+    background-color:lime;
+    box-shadow: 2px 2px black;
+}

@@ -1,0 +1,36 @@
+.nav {
+    width: 960px;
+    background-color: black; 
+    border: 1px solid whitesmoke;
+    display: inline-flex;   
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.nav-title {    
+color: whitesmoke;
+margin: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-links a{
+color: white;
+text-decoration: none;
+}
+
+li {
+    margin: 10px;
+}
+
+.btn {
+    height: 30px;   
+    box-shadow: 10px 10px black;
+    background-color: aqua;
+    border: none;
+    color: white;
+}

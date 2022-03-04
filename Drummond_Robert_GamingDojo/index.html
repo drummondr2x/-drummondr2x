@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Your New Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navBar">
+        <h1>Gaming<span>Dojo</span></h1>
+        <div class="list">
+            <ul id="options">
+                <li><select name="currency">
+                    <option>Euro</option>
+                    <option>US Dollar</option>
+                    <option>Yen</option>
+                </select></li>
+                <li>
+                    <div id="cart">
+                        <img src="Assets/cart-light.png" alt="Picture of shopping cart">
+                        <h3 id="changeAmount">0</h3>
+                    </div>
+                </li>
+                <li><img src="Assets/search-light.png" alt="Image of search icon"></li>
+            </ul>
+        </div>    
+    </div>
+    <h4>Highlights</h4>
+    <div class="mainContainer">
+        <div class="topSection">
+            <button id="swipe" onclick="switchGame()"><img src="Assets/chevron-left.png" alt="chevron left icon"></button> 
+            <img class="large" src="Assets/stonepunk.png" alt="stonepunk game icon">
+            <button id="swipe" onclick="switchBack('large')"><img src="Assets/chevron-right.png" alt="chevron right icon"></button>
+        </div>
+        <div class="midDivider">
+            <h2>-</h2><h2>-</h2><h2>-</h2><h2>-</h2>
+        </div>
+        <div class="bottomSection">
+            <div>
+                <ul>
+                    <li><img class="small" src="Assets/cafe-neko.png"  alt="cafe neko game icon"></li>
+                    <li>
+                        <div class="gameContent">
+                            <p>Cafe Neko: Gold Edition</p>
+                            <div> 
+                                <ul id="icons">
+                                    <li><img class="smallIcon" src="Assets/windows.png" alt="windows icon"></li>
+                                    <li><img class="smallIcon" src="Assets/apple.png" alt="apple icon"></li>
+                                </ul>
+                            </div>
+                            <div class="bottomRow">
+                                <ul>
+                                    <li><div id="box1"><p>-10%</p></div></li>
+                                    <li><div><p id = "old">€8.19</p><p id="current">€7.39</p></div></li>
+                                    <li><button class="buy" onclick="updateCart()">Buy</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><img class="small" src="Assets/pixel-ninjas-2.png" id = "ninja" alt="pixel ninjas 2 game icon"></li>
+                    <li>
+                        <div class="gameContent">
+                            <p>Pixel Ninjas 2</p>
+                            <div>
+                                <ul id="icons">
+                                    <li><img class="smallIcon" src="Assets/windows.png" alt="windows icon"></li>
+                                    <li><img class="smallIcon" src="Assets/apple.png" alt="apple icon"></li>
+                                </ul>
+                            </div>
+                            <div class="bottomRow">
+                                <ul>
+                                    <li><div id="box1"><p>-20%</p></div></li>
+                                    <li><div><p id = "old">€14.98</p><p id="current">€10.49</p></div></li>
+                                    <li><button class="buy" onclick="updateCart()">Buy</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><img class="small" src="Assets/stonepunk.png" alt="stonepunk game icon"></li>
+                    <li>
+                        <div class="gameContent">
+                            <p>Stonepunk 10000 BCE</p>
+                            <div>
+                                <ul id="icons">
+                                    <li><img class="smallIcon" src="Assets/windows.png" alt="windows icon"></li>
+                                    <li><img class="smallIcon" src="Assets/apple.png" alt="apple icon"></li>
+                                    <li><button onclick="alert('This game is supported on Linux')"><img class="smallIcon" src="Assets/linux.png" alt="linux penguin icon"></button></li>
+                                </ul>
+                            </div>
+                            <div class="bottomRow">
+                                <ul>
+                                    <li><div id="box1"><p>NEW</p></div></li>
+                                    <li><div><p id="current">€19.99</p></div></li>
+                                    <li><button class="buy" onclick="updateCart()">Buy</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

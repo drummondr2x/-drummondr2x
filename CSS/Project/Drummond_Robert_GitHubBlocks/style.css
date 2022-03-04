@@ -1,0 +1,42 @@
+img.octocat{
+    height: 200px;
+    margin: 15px 0px;
+}
+
+.container {
+    width: 960px;
+    background-color: darkgrey;
+    padding: 15px;
+}
+
+h1 {
+color: lightblue;
+text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+* div {
+    margin: 20px;
+}
+
+.row1 {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    margin: ;
+}
+
+.row2 {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row3 {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+}

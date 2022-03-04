@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+li {
+list-style: none;
+justify-content: space-evenly;
+}
+
+.navBar {
+    background-color: skyblue;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cities ul{
+    display: flex;
+    list-style: none;
+}
+
+#cities li > *{
+    border: none;
+    padding: 0px 10px;
+    color: white;
+    background-color: skyblue;
+    font-size: large;
+    font-weight: bold;
+}
+
+#currentCity {
+font-family: sans-serif;
+font-weight: 200;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.topDisplay {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 300px;
+    padding: 10px 0px;
+    border-bottom: 3px solid black;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    background-color: lightgray;
+    height: 300px;
+    width: 175px;
+    justify-content: space-evenly;
+    margin: 30px;
+    align-items: center;
+}
+
+
+.content img {
+    height: 120px;
+    border-radius: 50%; 
+    margin-left: -5px;
+}
+
+.content li > * {
+    padding: 15px 0px;
+}
+
+
+.temps {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+#high {
+    color: red;
+
+}
+
+#low {
+    color: blue;
+}
+
+#message {
+    background-color: lightgray;
+    border: 3px solid black;
+    display: flex;
+    height: 100px;
+    width: 650px;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 20px;
+}
+
+#message img {
+    height: 60px;
+}
+
+#accept {
+    height: 30px;
+    
+}

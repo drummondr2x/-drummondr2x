@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.card {
+    margin: 100px 200px;
+    border: 1px solid lightsteelblue;
+    width: 475px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.header {
+    vertical-align: top;
+    height: 30%;
+    width:auto;
+    background-color: darkcyan;
+}
+
+.content {
+
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    border: 3px solid lightblue;
+    border-radius: 50%;
+    width: 60px;
+    position: relative;
+    left: 5%;
+    bottom: 10%;
+
+}
+h1 {
+    margin-top: -20px;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+.location {
+    display: flex;
+    display: inline-flex;
+    padding: 10px 0px;  
+}
+
+.location img{
+    width: 10px;
+    height: 15px;
+    padding-right: 10px;
+}
+
+.edit {
+    display: flex;
+    padding: 5px;
+    display: inline-flex;
+}
+
+.edit img {
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+}
+

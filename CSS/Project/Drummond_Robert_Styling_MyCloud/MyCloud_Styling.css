@@ -1,0 +1,30 @@
+h1{
+background-color: black;
+color: white;
+text-align: left;
+font-weight:bold;
+}
+
+h1 span{
+    color:aquamarine
+}
+
+h2{
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: weight 9px;
+    
+}
+
+h3{
+    background-color: skyblue;
+    color: darkblue;
+    text-align: right;
+    font-style: italic;
+    text-decoration: underline;
+    padding-right: 7px;
+    font-weight: lighter;
+}
